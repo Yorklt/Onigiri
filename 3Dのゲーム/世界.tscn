@@ -34,9 +34,9 @@ metadata/_edit_lock_ = true
 transform = Transform3D(0.766044, -0.321394, 0.55667, 0, 0.866025, 0.5, -0.642788, -0.383022, 0.663414, 1.5, 1.5, 2)
 metadata/_edit_lock_ = true
 
-[node name="箱" type="MeshInstance3D" parent="."]
+[node name="はこ" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_yecrw")
 
-[node name="ボール" type="MeshInstance3D" parent="箱"]
+[node name="ボール" type="MeshInstance3D" parent="はこ"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, -1)
 mesh = SubResource("SphereMesh_yecrw")

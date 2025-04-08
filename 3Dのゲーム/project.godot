@@ -15,3 +15,8 @@ run/main_scene="uid://coe8p6ug1ipi3"
 config/features=PackedStringArray("4.4", "Forward Plus")
 boot_splash/bg_color=Color(0.635004, 0.810876, 0.719932, 1)
 config/icon="uid://e4othahfo2lx"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
